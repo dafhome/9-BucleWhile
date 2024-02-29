@@ -10,8 +10,6 @@ function realizarSuma(){
         let numeroDos = parseInt (prompt("Introduce el segundo numero: "))
         let suma = sumar (numeroUno, numeroDos);
 
-    
-
         // document.write("<h1>La suma de "+numeroUno+" + "+numeroDos+" es: "+suma);
         añadirElemento(numeroUno,numeroDos,suma);
 
@@ -20,9 +18,7 @@ function realizarSuma(){
         if(preguntaContinuar.toLowerCase() == "no"){
             pregunta = false;
         }
-
     }
-
 }
 
 function sumar(a,b){
